@@ -4,14 +4,13 @@ Projet 1 - Site Statique
 Arborescence du dépôt :
 
 
+```
 * ressources/
   * css/
   * documents/
   * fonts/
   * imgs/
   * psd/
-  
-***
 
 * src
   * README.md
@@ -34,3 +33,4 @@ Arborescence du dépôt :
       * bootstrap.js
       * bootstrap.min.js
       * npm.js
+```
