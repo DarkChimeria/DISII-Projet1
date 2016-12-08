@@ -32,27 +32,41 @@ body {
     
 }
 
-.navperso {
-    margin-right: 15px;
-    margin-left:  15px;
-    margin-top:  10px;
-}
 .row2 {
-    margin-right: 15px;
-    margin-left:  15px;
+    margin-right: 25px;
+    margin-left:  25px;
     margin-top:  30px;
 }
 
 .content {
-	padding: 20px;
+	padding-top: 20px;
     border: 1px solid #dedede;
     background-color: #fff;
 }
 
-.sidebar {
-    
+.circle{
 
-    padding: 20px;
-    border: 1px solid #dedede;
-    background-color: #fff;
+    padding-left: 30%;
+    padding-bottom: 30px;
+
 }
+
+.footer {
+    width: auto;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 45px;
+    height: 50px;
+    border-bottom: 0
+}
+
+.infos{
+
+    width: 100%;
+    padding-bottom: 30px;
+    padding-right: 0;
+
+}
+

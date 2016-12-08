@@ -8,6 +8,28 @@
         <!-- Bootstrap -->
     	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="./assets/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/responsiveslides.css">
+  <link rel="stylesheet" href="./assets/css/demo.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="./assets/js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+           
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+
+        namespace: "callbacks",
+       
+      });
+
+    });
+  </script>
     </head>
     <body>
     <header class="header">
@@ -93,17 +115,77 @@
 
 <div class="container-fluid">
     <div class="row2">
-        <div class="col-md-8 content">
-        <h1>Hello, world!</h1>
+        <div class="col-md-12">
+        <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="./assets/imgs/slider1.png" alt="">
+          <p class="caption">This is a caption</p>
+        </li>
+        <li>
+          <img src="./assets/imgs/slider2.png" alt="">
+          <p class="caption">This is another caption</p>
+        </li>
+        <li>
+          <img src="./assets/imgs/slider3.png" alt="">
+          <p class="caption">The third caption</p>
+        </li>
+      </ul>
+    </div>
         </div>
-        <div class="col-md-4 sidebar">
-        <h2>Hello, world!</h2>
+        
+        <div class="col-md-12 content">
+
+
+            <div class="col-md-4">
+            <img src="./assets/imgs/article1.png" alt="Logo" class="circle">
+            <p>
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+            <p>
+                <a class="btn" href="#">View details »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img src="./assets/imgs/article2.png" alt="Logo" class="circle">
+            <p>
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+            <p>
+                <a class="btn" href="#">View details »</a>
+            </p>
+        </div>
+        <div class="col-md-4">
+            <img src="./assets/imgs/article3.png" alt="Logo" class="circle">
+            <p>
+                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+            </p>
+            <p>
+                <a class="btn" href="#">View details »</a>
+            </p>
+        </div>
+
+        <div class="col-md-12">
+        <div class="col-md-8">
+        <img src="./assets/imgs/dagoma.png" alt="Logo" class="infos">
+        </div>
+
+        <div class="col-md-4">
+            <img src="./assets/imgs/dagoma.png" alt="Logo" class="infos">
+        </div>
+
         </div>
     </div>
+     </div>
+    
 </div>
+<div class="footer">
+        
 
+        Copyright 2016 - Tous droits réservés
+     
 
-    	 
+    	 </div>
 
 
 
@@ -116,7 +198,7 @@
     <!-- ******************************************************* -->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./assets/js/bootstrap.min.js"></script>
 
