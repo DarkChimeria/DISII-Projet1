@@ -8,137 +8,112 @@
         <!-- Bootstrap -->
     	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="./assets/css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/responsiveslides.css">
-  <link rel="stylesheet" href="./assets/css/demo.css">
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-  <script src="./assets/js/responsiveslides.min.js"></script>
-  <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
 
-           
-      // Slideshow 4
-      $("#slider4").responsiveSlides({
-        auto: true,
-        pager: false,
-        nav: true,
-        speed: 500,
-
-        namespace: "callbacks",
-       
-      });
-
-    });
-  </script>
+  
     </head>
     <body>
-    <header class="header">
+  
 
-<nav class="navbar " role="navigation">
-                <div class="navbar-header header_logo">
-                     
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                         <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </button> <a href="#"><img src="./assets/imgs/logo.jpg" alt="Logo" width="115"></a>
-                </div>
-                
-                <div class="collapse navbar-collapse  navperso" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="#">Link</a>
-                        </li>
-                        <li>
-                            <a href="#">Link</a>
-                        </li>
-                        <li class="dropdown">
-                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <a href="#">Something else here</a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">Separated link</a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">One more separated link</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input class="form-control" type="text" />
-                        </div> 
-                        <button type="submit" class="btn btn-default">
-                            Submit
-                        </button>
-                    </form>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#">Link</a>
-                        </li>
-                        <li class="dropdown">
-                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Action</a>
-                                </li>
-                                <li>
-                                    <a href="#">Another action</a>
-                                </li>
-                                <li>
-                                    <a href="#">Something else here</a>
-                                </li>
-                                <li class="divider">
-                                </li>
-                                <li>
-                                    <a href="#">Separated link</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                
-            </nav>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand name" href="index.html">Mak'it</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Accueil <span class="sr-only">(current)</span></a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes-nous ? <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="#">Contenu</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Contenu</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Mentions Légales</a></li>
+        <li><a href="#">Plan du site</a></li>
         
-    </header>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        
+
 
 <div class="container-fluid">
-    <div class="row2">
+    <div class="row3">
         <div class="col-md-12">
-        <div class="callbacks_container">
-      <ul class="rslides" id="slider4">
-        <li>
-          <img src="./assets/imgs/slider1.png" alt="">
-          <p class="caption">This is a caption</p>
-        </li>
-        <li>
-          <img src="./assets/imgs/slider2.png" alt="">
-          <p class="caption">This is another caption</p>
-        </li>
-        <li>
-          <img src="./assets/imgs/slider3.png" alt="">
-          <p class="caption">The third caption</p>
-        </li>
-      </ul>
-    </div>
+       <div class="carousel slide" id="carousel-43052">
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#carousel-43052">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-43052">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-43052">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="Carousel Bootstrap First" src="./assets/imgs/slider1.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                First Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Carousel Bootstrap Second" src="./assets/imgs/slider2.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Second Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="Carousel Bootstrap Third" src="./assets/imgs/slider3.png" />
+                        <div class="carousel-caption">
+                            <h4>
+                                Third Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                </div> <a class="left carousel-control" href="#carousel-43052" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-43052" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
         </div>
-        
+        </div>
+        <div class="row2">
         <div class="col-md-12 content">
 
 
             <div class="col-md-4">
-            <img src="./assets/imgs/article1.png" alt="Logo" class="circle">
+            <div class="text-center">
+            <img src="./assets/imgs/article1.png" alt="Logo" class="circle zoomEffect">
+        </div>
             <p>
                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
             </p>
@@ -147,7 +122,10 @@
             </p>
         </div>
         <div class="col-md-4">
-            <img src="./assets/imgs/article2.png" alt="Logo" class="circle">
+        <div class="text-center">
+
+            <img src="./assets/imgs/article2.png" alt="Logo" class="circle zoomEffect">
+        </div>
             <p>
                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
             </p>
@@ -156,7 +134,9 @@
             </p>
         </div>
         <div class="col-md-4">
-            <img src="./assets/imgs/article3.png" alt="Logo" class="circle">
+            <div class="text-center">
+            <img src="./assets/imgs/article3.png" alt="Logo" class="circle zoomEffect">
+             </div>
             <p>
                 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
             </p>
@@ -165,16 +145,30 @@
             </p>
         </div>
 
-        <div class="col-md-12">
+       
         <div class="col-md-8">
         <img src="./assets/imgs/dagoma.png" alt="Logo" class="infos">
         </div>
 
         <div class="col-md-4">
-            <img src="./assets/imgs/dagoma.png" alt="Logo" class="infos">
+          
+          <div id="intro_image">
+    <img src="./assets/imgs/next.png" width=100% alt="Bienvenue sur le site" />
+        <div id="intro_slogan">
+        <div class="text-center">
+            <p class="slogan">Message  à afficher</p>
+            <br>
+            <p class="slogan">Message  à afficher</p>
+            <br>
+            <p class="slogan">Message  à afficher</p>
+
+            <p><a href="#" class="button-info">QUI SOMMES NOUS ?</a></p>
+            </div>
+        </div>   
+</div>
         </div>
 
-        </div>
+       
     </div>
      </div>
     
