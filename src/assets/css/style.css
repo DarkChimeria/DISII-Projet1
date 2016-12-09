@@ -52,7 +52,7 @@ body {
     padding-top: 20px;
     padding-left: 45px;
     height: 50px;
-    border-bottom: 0
+    border-bottom: 0px;
 }
 
 
@@ -157,4 +157,11 @@ img.zoomEffect:hover {
     -ms-transform: rotate(5deg) scale(1.10);
     transform: rotate(5deg) scale(1.10);
     opacity: 1;
+}
+
+.contact {
+padding-bottom: 15px;
+border-left: 1px solid #dedede;
+
+
 }
