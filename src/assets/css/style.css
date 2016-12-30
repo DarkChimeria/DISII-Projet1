@@ -4,8 +4,8 @@ body {
     margin: 0;
     font-size: 14px;
     line-height: 1.4;
-    font-family: synthese,helvetica,arial,sans-serif;
-    color: #222;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #777777;
     background-color: #313131;
 }
 
@@ -69,6 +69,11 @@ body {
 
 }
 
+.footer .right{
+    float: right;
+
+
+}
 
 
 .name  {
@@ -260,23 +265,23 @@ div#intro_slogan {
 }
 
 .news .btn-default {
-  color: #333333;
+  color: #777777;
   background-color: #ffffff;
   border-color: #cccccc;
 }
 .news.btn-default:focus,
 .news .btn-default.focus {
-  color: #333333;
+  color: #777777;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
 }
 .news .btn-default:hover {
-  color: #333333;
+  color: #777777;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
 .news .btn-default:active{
-  color: #333333;
+  color: #777777;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -319,11 +324,11 @@ div#intro_slogan {
 
 
 .product-box {
-    
+
     display:inline-block;
     position:relative;
 }
- .cap-text {
+.cap-text {
     position: absolute;
     background-color: rgba(15, 15, 15, 0.93);
     color: #fff;
