@@ -8,7 +8,7 @@
 	<!-- Bootstrap -->
 	<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
 	<link href="./assets/css/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="./assets/css/font-awesome.min.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 
 
@@ -17,92 +17,224 @@
 
 
 	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand name" href="index.html">Mak'it</a>
-			</div>
+		<!--  <div class="container-fluid"> -->
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand name" href="index.html">Mak'it</a>
+		</div>
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Accueil</a></li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes-nous ? <span class="caret"></span></a>
-						<ul class="dropdown-menu">
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="index.html">Accueil <span class="sr-only">(current)</span></a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes-nous ? <span class="caret"></span></a>
+					<ul class="dropdown-menu">
 
-							<li><a href="team.html">L'équipe de Mak'it</a></li>
-							<li role="separator" class="divider"></li>
-							<li><a href="creations.html">Nos Créations</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+						<li><a href="team.html">L'équipe de Mak'it</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="creations.html">Nos Créations</a></li>
+					</ul>
+				</li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
 
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="mentionslegales.html">Mentions Légales</a></li>
-					<li><a href="plansite.html">Plan du site</a></li>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="mentionslegales.html">Mentions Légales</a></li>
+				<li><a href="plansite.html">Plan du site</a></li>
 
-				</ul>
-			</div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
+			</ul>
+		</div><!-- /.navbar-collapse -->
+		<!-- </div>/.container-fluid -->
 	</nav>
 
 
 
 	<div class="container-fluid">
-
-
-
-
-
+		<div class="row3">
+			<div class="col-md-12">
+				<div class="carousel slide" id="carousel-43052">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#carousel-43052">
+						</li>
+						<li data-slide-to="1" data-target="#carousel-43052">
+						</li>
+						<li data-slide-to="2" data-target="#carousel-43052">
+						</li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img alt="Carousel Bootstrap First" src="./assets/imgs/slider1.png" />
+							<div class="carousel-caption">
+								<h4>
+									First Thumbnail label
+								</h4>
+								<p>
+									Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<img alt="Carousel Bootstrap Second" src="./assets/imgs/slider2.png" />
+							<div class="carousel-caption">
+								<h4>
+									Second Thumbnail label
+								</h4>
+								<p>
+									Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<img alt="Carousel Bootstrap Third" src="./assets/imgs/slider3.png" />
+							<div class="carousel-caption">
+								<h4>
+									Third Thumbnail label
+								</h4>
+								<p>
+									Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								</p>
+							</div>
+						</div>
+					</div> <a class="left carousel-control" href="#carousel-43052" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-43052" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				</div>
+			</div>
+		</div>
 		<div class="row2">
-			<div class="col-md-5 content">
+			<div class="col-md-12 content">
 
-				
-				<img src="./assets/imgs/article1.png" alt="Logo" class="circle zoomEffect">
-				
-				
-			</div>
-			<div class="col-md-5  col-md-offset-2 content">
 
-				<div class="col-md-4">
-					<img src="./assets/imgs/article1.png" alt="Logo" class="circle zoomEffect">
+				<div class="col-md-3">
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-5 content">
 
-				
-				<img src="./assets/imgs/article1.png" alt="Logo" class="circle zoomEffect">
-				
-				
-			</div>
-			<div class="col-md-5  col-md-offset-2 content">
 
-				<div class="col-md-4">
-					<img src="./assets/imgs/article1.png" alt="Logo" class="circle zoomEffect">
+
+				<!-- Blog Sidebar Widgets Column -->
+				<div class="col-md-3">
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+				<div class="col-md-3">
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="news">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="product-box">
+									<img src="./assets/imgs/bg-news.png" alt="Mak'it" class="align-center img-responsive">
+									<div class="cap-title"><span class="fa fa-at "></span> MAK'IT</div>
+									<div class="cap-text">Support pour smartphone</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
 			</div>
-
-
-
 
 		</div>
-
 	</div>
+
+</div>
+<div class="col-md-12">
 	<div class="footer">
 
 
 		Copyright 2016 - Tous droits réservés
 
-
 	</div>
+</div>
 
 
 
@@ -110,14 +242,14 @@
 
 
 
-	<!-- ******************************************************* -->		 
-	<!-- NE PAS DEPASSER CETTE LIGNE POUR LA CONSTRUCTION DU SITE-->	
-	<!-- ******************************************************* -->
+<!-- ******************************************************* -->		 
+<!-- NE PAS DEPASSER CETTE LIGNE POUR LA CONSTRUCTION DU SITE-->	
+<!-- ******************************************************* -->
 
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./assets/js/bootstrap.min.js"></script>
 
 
 </body>
