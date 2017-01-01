@@ -219,6 +219,7 @@ div#intro_slogan {
 .product-box {
   display:inline-block;
   position:relative;
+  margin: 0px 31px;
 }
 .cap-text {
   position: absolute;
