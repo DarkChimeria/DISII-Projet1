@@ -1,4 +1,4 @@
-/*essai css*/
+/*Style CSS perso*/
 body {
   margin: 0;
   font-size: 14px;
@@ -7,6 +7,7 @@ body {
   color: #777777;
   background-color: #313131;
 }
+/*DEBUT CSS AJUSTEMENT CONTENU*/
 .container {
   max-width: 960px;
   margin: 40px auto;
@@ -19,11 +20,12 @@ body {
   margin-left:  25px;
   margin-top:  30px;
 }
-.row3 {
-  margin-right: 10px;
-  margin-left:  10px;
+.content {
   margin-top:  30px;
+  padding-top: 20px;
 }
+/*FIN CSS AJUSTEMENT CONTENU*/
+/*DEBUT DU CSS DU NAVBAR*/
 .navbar-default {
   margin: 0px 70px;
   border-top-right-radius: 0px !important;
@@ -31,18 +33,21 @@ body {
   border-bottom-right-radius: 4px !important;
   border-bottom-left-radius: 4px !important;
 }
+.name  {
+  font-size: 30px;
+  color: #ea7600 !important;
+  font-weight: bold;
+  margin-right: 15px;
+}
+/*FIN DU CSS DU NAVBAR*/
+/*DEBUT DU CSS POUR LE CAROUSEL*/
 .carousel {
-  margin: 0px 30px;
+  margin: 0px 15px;
   border: 10px solid #ffffff;
   border-radius: 5px;
 }
-.content {
-  margin-top:  30px;
-  padding-top: 20px;
-}
-.circle{
-  padding-bottom: 30px;
-}
+/*FIN DU CSS POUR LE CAROUSEL*/
+/* DEBUT DU CSS FOOTER */
 .footer {
   color: #ffffff;
   min-height: 20px;
@@ -58,35 +63,9 @@ body {
 .footer .right{
   float: right;
 }
-.name  {
-  font-size: 30px;
-  color: #ea7600 !important;
-  font-weight: bold;
-  margin-right: 15px;
-}
-.infos{
-  width: 100%;
-  padding-bottom: 30px;
-  padding-right: 0;
-}
-div#intro_image {
-  position: relative;
-  margin-bottom: 30px;
-}
-div#intro_slogan {
-  color: #fff;
-  font-weight: bold;
-  font-size: 25px;
-  position: absolute;
-  top: 10%;
-  left: 1%;
-  width: 100%;
-  padding-bottom: 30px;
-}
-.contact {
-  padding-bottom: 15px;
-  border-left: 1px solid #dedede;
-}
+/* FIN DU CSS FOOTER */
+
+/* DEBUT DU CSS POUR RENDRE RESPONSIVE GMap */
 .map-responsive{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -100,6 +79,8 @@ div#intro_slogan {
   width:100%;
   position:absolute;
 }
+/* FIN DU CSS POUR RENDRE RESPONSIVE GMap */
+/* DEBUT DU CSS POUR LE SIDEBAR */
 .sidebar {
   min-height: 20px;
   /*  padding: 19px 19px;*/
@@ -137,12 +118,13 @@ div#intro_slogan {
   color: #f0f0f0;
   border-bottom: 1px solid #ce6700;
 }
+/* FIN DU CSS POUR LE SIDEBAR */
+/* DEBUT DU CSS POUR LE BLOC NEWS */
 .news {
   min-height: 20px;
   padding: 19px 19px;
   margin-bottom: 20px;
   background-color: #ffffff;
-  /* background-image: url('../imgs/bg-news.png');*/
   background-repeat: no-repeat;
   border: 1px solid #e3e3e3;
   border-radius: 4px;
@@ -216,6 +198,8 @@ div#intro_slogan {
   padding: 9px;
   border-radius: 3px;
 }
+/* FIN DU CSS POUR LE BLOC NEWS */
+/* DEBUT DU CSS POUR LES BLOCS DE CREATION */
 .product-box {
   display:inline-block;
   position:relative;
@@ -243,14 +227,7 @@ div#intro_slogan {
   background-color: rgba(234, 118, 0, 0.93);
   width: 100%;
 }
-.click-arrow-right {
-  position: absolute;
-  z-index: 16;
-  color: #fff;
-  font-size: 10px;
-  bottom: 0px;
-  right: 33px;
-}
 .cap-title {
   width:100%;
 }
+/* FIN DU CSS POUR LES BLOCS DE CREATION */
